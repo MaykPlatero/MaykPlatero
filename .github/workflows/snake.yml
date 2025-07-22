@@ -13,21 +13,22 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout do repositório
+      - name: Checkout repo
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
 
-      - name: Gera a cobrinha
+      - name: Generate snake with custom theme
         uses: Platane/snk@v3
         with:
           github_user_name: MaykPlatero
           outputs: |
             ./github-contribution-grid-snake.svg
+          config_file: .github/snk-config.json
 
-      - name: Commit e Push
+      - name: Commit and Push
         uses: EndBug/add-and-commit@v9
         with:
           author_name: github-actions
           author_email: github-actions@github.com
-          message: 🐍 Atualiza animação da cobrinha
+          message: 🐍 Update Snake animation with dark theme
