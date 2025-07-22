@@ -2,19 +2,29 @@ name: Generate Snake Game
 
 on:
   schedule:
-    - cron: "0 0 * * *"  
-  workflow_dispatch:     
+    - cron: "0 0 * * *"  # Roda todos os dias
+  workflow_dispatch:
 
 jobs:
   generate:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: Platane/snk@v3
+      - name: Checkout repo
+        uses: actions/checkout@v3
         with:
-          github_user_name: MaykPlatero
+          persist-credentials: false
+          fetch-depth: 0           
+
+      # ⬇️ Gera o SVG da cobrinha
+      - name: Generate snake SVG
+        uses: Platane/snk@v3
+        with:
+          github_user_name: maykplatero
           outputs: |
             ./github-contribution-grid-snake.svg
 
+      # ⬇️ Faz o commit do SVG gerado
       - name: Commit and Push
         uses: EndBug/add-and-commit@v9
         with:
