@@ -23,16 +23,7 @@ jobs:
         with:
           github_user_name: MaykPlatero
           outputs: ./github-contribution-grid-snake.svg
-          args: >
-            --theme dark
-            --color_snake '#3399FF'
-            --color_dots.base '#1b1f23'
-            --color_dots.none '#1b1f23'
-            --color_dots.low '#4CAF50'
-            --color_dots.middle '#388E3C'
-            --color_dots.highlight '#1B5E20'
-            --animation_duration 5
-            --show_cursor true
+          entryPoint: .github/snk-config.json
 
       - name: Commit and Push
         uses: EndBug/add-and-commit@v9
