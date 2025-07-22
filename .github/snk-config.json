@@ -1,0 +1,13 @@
+{
+  "theme": "dark",
+  "color_snake": "#3399FF",
+  "color_dots": {
+    "base": "#1b1f23",
+    "none": "#1b1f23",
+    "low": "#4CAF50",
+    "middle": "#388E3C",
+    "highlight": "#1B5E20"
+  },
+  "animation_duration": 5,
+  "show_cursor": true
+}
