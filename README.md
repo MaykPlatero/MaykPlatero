@@ -2,20 +2,6 @@
 
 <h3 align="center">Junior Fullstack Developer 👨🏻‍💻</h3>
 
-<p align="center">
-  <img src="https://github.com/MaykPlatero/MaykPlatero/blob/main/github-contribution-grid-snake.svg" alt="Snake animation" />
-</p>
-
----
-
-## 📖 About Me
-
-🎓 I hold a degree in **Systems Analysis and Development**, and I'm currently pursuing a **postgraduate degree in Java Architecture and Development** at FIAP.  
-🚀 I work as a **Junior Fullstack Developer** at **Delta Global Bank**, where I’ve been gaining hands-on experience in real-world and challenging projects.  
-📚 I'm deeply passionate about technology and always striving to stay updated with the latest industry trends.  
-🗣️ I have **intermediate English proficiency** and strong skills in **communication** and **teamwork**.  
-💡 I'm always motivated to face new challenges and contribute to **efficient and innovative solutions**.
-
 ---
 
 ## 🛠️ Technical Skills & Tools
@@ -38,6 +24,22 @@
   <img src="https://img.shields.io/badge/IntelliJ IDEA-000000?style=for-the-badge&logo=intellij-idea&logoColor=white"/>
   <img src="https://img.shields.io/badge/VS Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white"/>
 </p>
+
+---
+
+<p align="center">
+  <img src="https://github.com/MaykPlatero/MaykPlatero/blob/main/github-contribution-grid-snake.svg" alt="Snake animation" />
+</p>
+
+---
+
+## 📖 About Me
+
+🎓 I hold a degree in **Systems Analysis and Development**, and I'm currently pursuing a **postgraduate degree in Java Architecture and Development** at FIAP.  
+🚀 I work as a **Junior Fullstack Developer** at **Delta Global Bank**, where I’ve been gaining hands-on experience in real-world and challenging projects.  
+📚 I'm deeply passionate about technology and always striving to stay updated with the latest industry trends.  
+🗣️ I have **intermediate English proficiency** and strong skills in **communication** and **teamwork**.  
+💡 I'm always motivated to face new challenges and contribute to **efficient and innovative solutions**.
 
 ---
 
