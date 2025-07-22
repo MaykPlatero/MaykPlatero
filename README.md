@@ -1,6 +1,6 @@
 <h1 align="center">👋🏻 Hi, I'm Mayk Platero</h1>
 
-<p align="center">Junior Fullstack Developer 👨🏻‍💻</p>
+<h2 align="center">Junior Fullstack Developer 👨🏻‍💻</h2>
 
 <p align="center">
   <img src="https://github.com/MaykPlatero/MaykPlatero/blob/main/github-contribution-grid-snake.svg" alt="Snake animation" />
